@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<layout>
-    <default>
-        <reference name ="right">
-            <block type ="acierno_helloworld/helloworld" name="hello.side.right" template="acierno_helloworld/sidebar.phtml"/>
-        </reference>
-    </default>
-    <helloworld_index_index>
-        <reference name="root">
-            <action method="setTemplate">
-                <template>page/2columns-right.phtml</template>
-            </action>
-        </reference>
-        <reference name ="head">
-            <action method="setTitle" translate="title" module="acierno_helloworld"><title>Welcome to our hello!</title></action>
-        </reference>
-        <reference name ="content">
-            <block type ="acierno_helloworld/helloworld" name="helloworld.body.content" template="acierno_helloworld/content.phtml"/>
-        </reference>
-        <reference name ="right">
-           <remove name="hello.side.right"/>
-        </reference>
-    </helloworld_index_index>
-</layout>
+    <?xml version="1.0" encoding="UTF-8" ?>
+    <layout>
+        <default>
+            <reference name ="right">
+                <block type ="acierno_helloworld/helloworld" name="hello.side.right" template="acierno_helloworld/sidebar.phtml"/>
+            </reference>
+        </default>
+        <helloworld_index_index>
+            <reference name="root">
+                <action method="setTemplate">
+                    <template>page/2columns-right.phtml</template>
+                </action>
+            </reference>
+            <reference name ="head">
+                <action method="setTitle" translate="title" module="acierno_helloworld"><title>Welcome to our hello!</title></action>
+            </reference>
+            <reference name ="content">
+                <block type ="acierno_helloworld/helloworld" name="helloworld.body.content" template="acierno_helloworld/content.phtml"/>
+            </reference>
+            <reference name ="right">
+               <remove name="hello.side.right"/>
+            </reference>
+        </helloworld_index_index>
+    </layout>
