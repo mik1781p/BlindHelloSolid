@@ -6,9 +6,9 @@
 /**
  * Class Acierno_Helloworld_Helper_Data
  *
- *
  * @version 0.1.0
  * @author Michele Acierno <michele.acierno@thinkopen.it>
+ * @package cms
  */
 class Acierno_Helloworld_Helper_Data extends Mage_Core_Helper_Abstract
 {

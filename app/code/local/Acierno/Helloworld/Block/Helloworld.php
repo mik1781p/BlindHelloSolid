@@ -6,9 +6,9 @@
 /**
  * Class Acierno_Helloworld_Block_Helloworld
  *
- *
  * @version 0.1.0
  * @author Michele Acierno <michele.acierno@thinkopen.it>
+ * @package cms
  */
 class Acierno_Helloworld_Block_Helloworld extends Mage_Core_Block_Template
 {
@@ -16,7 +16,7 @@ class Acierno_Helloworld_Block_Helloworld extends Mage_Core_Block_Template
      * getMessage
      *
      * Returns the message stored for the welcoming
-     * @return mixed
+     * @return string
      */
     public function getMessage()
     {

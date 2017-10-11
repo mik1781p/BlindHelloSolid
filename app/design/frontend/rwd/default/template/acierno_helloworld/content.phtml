@@ -1,11 +1,11 @@
 <div class="content">
-    <?php  if($this->isEnabled()) : ?>
-    <?php  echo $this->__('Zend to Magento');  ?>
-    <?php  echo '<hr>'; ?>
-    <?php  echo $this->__('Mangeto... i am your father!'); ?>
-    <?php  echo '<hr>'; ?>
-    <?php  echo $this->__('NOOOOOOOOOOOOOOOOOOOOOOOOOO'); ?>
-    <?php  echo '<hr>'; ?>
-    <?php  echo $this->getMessage(); ?>
-    <?php  endif; ?>
+    <?php if ($this->isEnabled()) : ?>
+        <h1><?php echo $this->__('Zend to Magento');  ?> </h1>
+        <hr>
+        <p><?php echo $this->__('Mangeto... i am your father!'); ?> </p>
+        <hr>
+        <p><?php echo $this->__('NOOOOOOOOOOOOOOOOOOOOOOOOOO'); ?> </p>
+        <hr>
+        <p><?php  echo $this->getMessage(); ?></p>
+    <?php endif; ?>
 </div>
